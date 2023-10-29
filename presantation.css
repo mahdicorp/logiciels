@@ -1,0 +1,82 @@
+p {margin:0px; padding:0px; line-height:100%}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1000px;min-height:1200px;z-index:1;}
+#PanelHeader {display:block;overflow:hidden;position:relative;float:left;margin-left:20px;width:960px;height:120px;z-index:2;}
+#PanelHeaderAlpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#PanelHeaderNoAlpha {position:relative;}
+#Img9 {display:block;overflow:hidden;position:absolute;left:19px;top:11px;width:157px;height:88px;z-index:3;box-shadow:10px 10px 5px rgba(00,00,00,0.5);-webkit-box-shadow:10px 10px 5px rgba(00,00,00,0.5);-moz-box-shadow:10px 10px 5px rgba(00,00,00,0.5);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img9Inner {position:absolute;width:155px;height:86px;border: 1px outset rgba(0,0,0,1.0);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img9PopUp {display:none;overflow:hidden;z-index:999}
+#Img9PopUpInner {position:absolute;width:1000px;height:586px;border:0px;overflow:hidden;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;}
+#Img10 {display:block;overflow:hidden;position:absolute;left:587px;top:19px;width:67px;height:67px;z-index:4;box-shadow:10px 10px 5px rgba(00,00,00,0.5);-webkit-box-shadow:10px 10px 5px rgba(00,00,00,0.5);-moz-box-shadow:10px 10px 5px rgba(00,00,00,0.5);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img10Inner {position:absolute;width:67px;height:67px;border:0px;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Text6 {display:block;position:absolute;left:671px;top:20px;width:279px;height:73px;z-index:5;}
+#Img11 {display:block;overflow:hidden;position:absolute;left:209px;top:9px;width:157px;height:88px;z-index:6;box-shadow:10px 10px 5px rgba(00,00,00,0.5);-webkit-box-shadow:10px 10px 5px rgba(00,00,00,0.5);-moz-box-shadow:10px 10px 5px rgba(00,00,00,0.5);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img11Inner {position:absolute;width:155px;height:86px;border: 1px outset rgba(0,0,0,1.0);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img11PopUp {display:none;overflow:hidden;z-index:999}
+#Img11PopUpInner {position:absolute;width:680px;height:398px;border:0px;overflow:hidden;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;}
+#Img12 {display:block;overflow:hidden;position:absolute;left:396px;top:9px;width:157px;height:88px;z-index:7;box-shadow:10px 10px 5px rgba(00,00,00,0.5);-webkit-box-shadow:10px 10px 5px rgba(00,00,00,0.5);-moz-box-shadow:10px 10px 5px rgba(00,00,00,0.5);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img12Inner {position:absolute;width:155px;height:86px;border: 1px outset rgba(0,0,0,1.0);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img12PopUp {display:none;overflow:hidden;z-index:999}
+#Img12PopUpInner {position:absolute;width:680px;height:398px;border:0px;overflow:hidden;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;}
+#PanelMenu {display:block;overflow:hidden;position:relative;float:left;margin-left:20px;width:960px;height:60px;z-index:8;}
+#PanelMenuAlpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#PanelMenuNoAlpha {position:relative;}
+#BoxMenu1 {display:block;overflow:hidden;position:absolute;left:0px;top:0px;width:960px;height:60px;z-index:9;background:url('./images/presantation_BoxMenu1.png');background-repeat:no-repeat;}
+#BoxMenu2 {display:block;overflow:hidden;position:absolute;left:0px;top:48px;width:960px;height:12px;z-index:10;background:url('./images/presantation_BoxMenu2.png');background-repeat:no-repeat;}
+#But2 {display:block;overflow:hidden;position:absolute;left:19px;top:12px;width:35px;height:35px;z-index:11;background:url('./buttons/presantation_But2.png');background-repeat:no-repeat;}
+#But2.Up {background-position: 0 0;}
+#But2.Down {background-position: -35px 0;}
+#But2.Over {background-position: -70px 0;}
+#But2 p {visibility:hidden;}
+#PanelCenter {display:block;overflow:hidden;position:relative;float:left;margin-left:20px;width:960px;min-height:600px;z-index:12;}
+#PanelCenterAlpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#PanelCenterNoAlpha {position:relative;}
+#DecoEdit {display:block;overflow:hidden;position:absolute;left:20px;top:0px;width:920px;height:600px;z-index:13;}
+#DecoEditInner {position:absolute;width:920px;height:600px;border:0px;}
+#PanelBanner {display:block;overflow:hidden;position:relative;float:left;width:960px;height:120px;z-index:14;}
+#PanelBannerAlpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#PanelBannerNoAlpha {position:relative;}
+#BoxBanner1 {display:block;overflow:hidden;position:relative;float:left;width:960px;height:120px;z-index:15;background:url('./images/presantation_BoxBanner1.png');background-repeat:no-repeat;}
+#Text2 {display:block;position:absolute;left:0px;top:-41px;margin-left:20px;margin-top:70px;margin-right:20px;width:920px;height:60px;z-index:16;}
+#PanelBlocs {display:block;overflow:hidden;position:relative;float:left;width:960px;min-height:480px;z-index:17;padding-bottom:10px;}
+#PanelBlocsAlpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#PanelBlocsNoAlpha {position:relative;}
+#Box3 {display:block;overflow:hidden;position:relative;float:left;width:240px;height:480px;z-index:18;background:url('./images/presantation_Box3.png');background-repeat:no-repeat;}
+#GESTION {display:block;overflow:hidden;position:absolute;left:50px;top:10px;width:170px;height:20px;z-index:19;white-space:normal;}
+#Img3 {display:block;overflow:hidden;position:absolute;left:10px;top:5px;width:30px;height:30px;z-index:20;}
+#Img3Inner {position:absolute;width:30px;height:30px;border:0px;}
+#Img8 {display:block;overflow:hidden;position:absolute;left:20px;top:60px;width:203px;height:108px;z-index:21;box-shadow:10px 10px 5px rgba(00,00,00,0.5);-webkit-box-shadow:10px 10px 5px rgba(00,00,00,0.5);-moz-box-shadow:10px 10px 5px rgba(00,00,00,0.5);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img8Inner {position:absolute;width:201px;height:106px;border: 1px outset rgba(0,0,0,0.5);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img8PopUp {display:none;overflow:hidden;z-index:999}
+#Img8PopUpInner {position:absolute;width:800px;height:443px;border:0px;overflow:hidden;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;}
+#Box1 {display:block;overflow:hidden;position:relative;float:left;width:240px;height:183px;z-index:22;background:url('./images/presantation_Box1.png');background-repeat:no-repeat;}
+#Titre1 {display:block;overflow:hidden;position:absolute;left:50px;top:10px;width:170px;height:20px;z-index:23;white-space:normal;}
+#Img1 {display:block;overflow:hidden;position:absolute;left:10px;top:5px;width:30px;height:30px;z-index:24;}
+#Img1Inner {position:absolute;width:30px;height:30px;border:0px;}
+#Img2 {display:block;overflow:hidden;position:absolute;left:20px;top:60px;width:190px;height:106px;z-index:25;box-shadow:10px 10px 5px rgba(00,00,00,0.5);-webkit-box-shadow:10px 10px 5px rgba(00,00,00,0.5);-moz-box-shadow:10px 10px 5px rgba(00,00,00,0.5);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img2Inner {position:absolute;width:188px;height:104px;border: 1px outset rgba(0,0,0,0.5);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img2PopUp {display:none;overflow:hidden;z-index:999}
+#Img2PopUpInner {position:absolute;width:1000px;height:580px;border:0px;overflow:hidden;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;}
+#Box2 {display:block;overflow:hidden;position:relative;float:left;width:240px;height:194px;z-index:26;background:url('./images/presantation_Box2.png');background-repeat:no-repeat;}
+#Titre2 {display:block;overflow:hidden;position:absolute;left:50px;top:10px;width:170px;height:20px;z-index:27;white-space:normal;}
+#Img4 {display:block;overflow:hidden;position:absolute;left:10px;top:5px;width:30px;height:30px;z-index:28;}
+#Img4Inner {position:absolute;width:30px;height:30px;border:0px;}
+#Img5 {display:block;overflow:hidden;position:absolute;left:20px;top:60px;width:199px;height:106px;z-index:29;}
+#Img5Inner {position:absolute;width:197px;height:104px;border: 1px solid rgba(0,0,0,0.5);}
+#Box4 {display:block;overflow:hidden;position:relative;float:left;width:240px;height:195px;z-index:30;background:url('./images/presantation_Box4.png');background-repeat:no-repeat;}
+#Titre4 {display:block;overflow:hidden;position:absolute;left:50px;top:10px;width:170px;height:20px;z-index:31;white-space:normal;}
+#Img6 {display:block;overflow:hidden;position:absolute;left:10px;top:5px;width:30px;height:30px;z-index:32;}
+#Img6Inner {position:absolute;width:30px;height:30px;border:0px;}
+#Img7 {display:block;overflow:hidden;position:absolute;left:20px;top:60px;width:190px;height:99px;z-index:33;box-shadow:10px 10px 5px rgba(00,00,00,0.5);-webkit-box-shadow:10px 10px 5px rgba(00,00,00,0.5);-moz-box-shadow:10px 10px 5px rgba(00,00,00,0.5);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img7Inner {position:absolute;width:188px;height:97px;border: 1px solid rgba(0,0,0,0.5);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img7PopUp {display:none;overflow:hidden;z-index:999}
+#Img7PopUpInner {position:absolute;width:800px;height:437px;border:0px;overflow:hidden;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;}
+#Video1 {display:block;overflow:hidden;position:absolute;left:20px;top:194px;width:633px;height:287px;z-index:34;}
+#PanelFooter {display:block;overflow:hidden;position:relative;float:left;margin-left:20px;width:960px;height:120px;z-index:35;}
+#PanelFooterAlpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#PanelFooterNoAlpha {position:relative;}
+#BoxFooter1 {display:block;overflow:hidden;position:relative;float:left;width:960px;height:60px;z-index:36;background:url('./images/presantation_BoxMenu1.png');background-repeat:no-repeat;}
+#BoxFooter2 {display:block;overflow:hidden;position:absolute;left:0px;top:0px;width:960px;height:12px;z-index:37;background:url('./images/presantation_BoxMenu2.png');background-repeat:no-repeat;}
+#Compteur1 {display:block;overflow:hidden;position:absolute;left:30px;top:6px;width:183px;height:48px;z-index:38;}
+#Text7 {display:block;position:absolute;left:219px;top:19px;width:241px;height:34px;z-index:39;}

@@ -1,0 +1,30 @@
+p {margin:0px; padding:0px; line-height:100%}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1000px;min-height:1200px;z-index:1;}
+#PanelHeader {display:block;overflow:hidden;position:relative;float:left;margin-left:20px;width:960px;height:120px;z-index:2;}
+#PanelHeaderAlpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#PanelHeaderNoAlpha {position:relative;}
+#LogoEdit {display:block;overflow:hidden;position:absolute;left:10px;top:10px;width:250px;height:100px;z-index:3;}
+#LogoEditInner {position:absolute;width:250px;height:100px;border:0px;}
+#Poweredby_img {display:block;overflow:hidden;position:absolute;left:750px;top:40px;width:200px;height:40px;z-index:4;}
+#Poweredby_imgInner {position:absolute;width:200px;height:40px;border:0px;}
+#PanelMenu {display:block;overflow:hidden;position:relative;float:left;margin-left:20px;width:960px;height:60px;z-index:5;}
+#PanelMenuAlpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#PanelMenuNoAlpha {position:relative;}
+#BoxMenu1 {display:block;overflow:hidden;position:absolute;left:0px;top:0px;width:960px;height:60px;z-index:6;background:url('./images/modele-a_BoxMenu1.png');background-repeat:no-repeat;}
+#BoxMenu2 {display:block;overflow:hidden;position:absolute;left:0px;top:48px;width:960px;height:12px;z-index:7;background:url('./images/modele-a_BoxMenu2.png');background-repeat:no-repeat;}
+#Menu1 {display:block;z-index:2083;position:absolute;left:20px;top:120px;width:960px;height:50px;}
+#PanelCenter {display:block;overflow:hidden;position:relative;float:left;margin-left:20px;width:960px;min-height:600px;z-index:9;}
+#PanelCenterAlpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#PanelCenterNoAlpha {position:relative;}
+#DecoEdit {display:block;overflow:hidden;position:absolute;left:20px;top:0px;width:920px;height:600px;z-index:10;}
+#DecoEditInner {position:absolute;width:920px;height:600px;border:0px;}
+#PanelBanner {display:block;overflow:hidden;position:relative;float:left;width:960px;height:815px;z-index:11;}
+#PanelBannerAlpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#PanelBannerNoAlpha {position:relative;}
+#ObjWeb1 {display:block;overflow:hidden;position:absolute;left:10px;top:11px;width:843px;height:643px;z-index:12;}
+#PanelFooter {display:block;overflow:hidden;position:relative;float:left;margin-left:20px;width:960px;height:120px;z-index:13;}
+#PanelFooterAlpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#PanelFooterNoAlpha {position:relative;}
+#BoxFooter1 {display:block;overflow:hidden;position:relative;float:left;width:960px;height:60px;z-index:14;background:url('./images/modele-a_BoxMenu1.png');background-repeat:no-repeat;}
+#BoxFooter2 {display:block;overflow:hidden;position:absolute;left:0px;top:0px;width:960px;height:12px;z-index:15;background:url('./images/modele-a_BoxMenu2.png');background-repeat:no-repeat;}

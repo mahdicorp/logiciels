@@ -1,0 +1,101 @@
+p {margin:0px; padding:0px; line-height:100%}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1000px;min-height:1200px;z-index:1;}
+#PanelHeader {display:block;overflow:hidden;position:relative;float:left;margin-left:20px;width:960px;height:120px;z-index:2;}
+#PanelHeaderAlpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#PanelHeaderNoAlpha {position:relative;}
+#Img6 {display:block;overflow:hidden;position:absolute;left:587px;top:19px;width:67px;height:67px;z-index:3;box-shadow:10px 10px 5px rgba(00,00,00,0.5);-webkit-box-shadow:10px 10px 5px rgba(00,00,00,0.5);-moz-box-shadow:10px 10px 5px rgba(00,00,00,0.5);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img6Inner {position:absolute;width:67px;height:67px;border:0px;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Text6 {display:block;position:absolute;left:671px;top:20px;width:279px;height:73px;z-index:4;}
+#Img11 {display:block;overflow:hidden;position:absolute;left:209px;top:9px;width:157px;height:88px;z-index:5;box-shadow:10px 10px 5px rgba(00,00,00,0.5);-webkit-box-shadow:10px 10px 5px rgba(00,00,00,0.5);-moz-box-shadow:10px 10px 5px rgba(00,00,00,0.5);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img11Inner {position:absolute;width:155px;height:86px;border: 1px outset rgba(0,0,0,1.0);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img11PopUp {display:none;overflow:hidden;z-index:999}
+#Img11PopUpInner {position:absolute;width:680px;height:398px;border:0px;overflow:hidden;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;}
+#Img12 {display:block;overflow:hidden;position:absolute;left:396px;top:9px;width:157px;height:88px;z-index:6;box-shadow:10px 10px 5px rgba(00,00,00,0.5);-webkit-box-shadow:10px 10px 5px rgba(00,00,00,0.5);-moz-box-shadow:10px 10px 5px rgba(00,00,00,0.5);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img12Inner {position:absolute;width:155px;height:86px;border: 1px outset rgba(0,0,0,1.0);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img12PopUp {display:none;overflow:hidden;z-index:999}
+#Img12PopUpInner {position:absolute;width:680px;height:398px;border:0px;overflow:hidden;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;}
+#PanelMenu {display:block;overflow:hidden;position:relative;float:left;margin-left:20px;width:960px;height:60px;z-index:7;}
+#PanelMenuAlpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#PanelMenuNoAlpha {position:relative;}
+#BoxMenu1 {display:block;overflow:hidden;position:absolute;left:0px;top:0px;width:960px;height:60px;z-index:8;background:url('./images/gestion2_BoxMenu1.png');background-repeat:no-repeat;}
+#BoxMenu2 {display:block;overflow:hidden;position:absolute;left:0px;top:48px;width:960px;height:12px;z-index:9;background:url('./images/gestion2_BoxMenu2.png');background-repeat:no-repeat;}
+#But2 {display:block;overflow:hidden;position:absolute;left:19px;top:12px;width:35px;height:35px;z-index:10;background:url('./buttons/gestion2_But2.png');background-repeat:no-repeat;}
+#But2.Up {background-position: 0 0;}
+#But2.Down {background-position: -35px 0;}
+#But2.Over {background-position: -70px 0;}
+#But2 p {visibility:hidden;}
+#But1 {display:block;overflow:hidden;position:absolute;left:70px;top:12px;width:159px;height:35px;z-index:11;background:url('./buttons/gestion2_But1.png');background-repeat:no-repeat;}
+#But1.Up {background-position: 0 0;}
+#But1.Down {background-position: -159px 0;}
+#But1.Over {background-position: -318px 0;}
+#But1 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-style:italic;font-family:Arial;font-size:15px;color:#000000;}
+#But1.Up p {top:11px;left:36px;}
+#But1.Down p {top:12px;left:37px;}
+#But1.Over p {top:11px;left:36px;}
+#But1 div {display:none;}
+#Text2 {display:block;position:absolute;left:363px;top:4px;width:508px;height:50px;z-index:12;}
+#But3 {display:block;overflow:hidden;position:absolute;left:228px;top:12px;width:159px;height:35px;z-index:13;background:url('./buttons/gestion2_But1.png');background-repeat:no-repeat;}
+#But3.Up {background-position: 0 0;}
+#But3.Down {background-position: -159px 0;}
+#But3.Over {background-position: -318px 0;}
+#But3 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-style:italic;font-family:Arial;font-size:15px;color:#000000;}
+#But3.Up p {top:11px;left:27px;}
+#But3.Down p {top:12px;left:28px;}
+#But3.Over p {top:11px;left:27px;}
+#But3 div {display:none;}
+#PanelCenter {display:block;overflow:hidden;position:relative;float:left;margin-left:20px;width:960px;min-height:600px;z-index:14;}
+#PanelCenterAlpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#PanelCenterNoAlpha {position:relative;}
+#Box1 {display:block;overflow:hidden;position:absolute;left:19px;top:48px;width:300px;height:182px;z-index:15;background:url('./images/gestion2_Box1.png');background-repeat:no-repeat;}
+#Img4 {display:block;overflow:hidden;position:absolute;left:18px;top:20px;width:248px;height:133px;z-index:16;box-shadow:10px 10px 5px rgba(00,00,00,0.5);-webkit-box-shadow:10px 10px 5px rgba(00,00,00,0.5);-moz-box-shadow:10px 10px 5px rgba(00,00,00,0.5);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img4Inner {position:absolute;width:246px;height:131px;border: 1px outset rgba(0,0,0,1.0);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img4PopUp {display:none;overflow:hidden;z-index:999}
+#Img4PopUpInner {position:absolute;width:800px;height:443px;border:0px;overflow:hidden;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;}
+#Box2 {display:block;overflow:hidden;position:absolute;left:330px;top:47px;width:300px;height:186px;z-index:17;background:url('./images/gestion2_Box2.png');background-repeat:no-repeat;}
+#Img7 {display:block;overflow:hidden;position:absolute;left:14px;top:30px;width:260px;height:99px;z-index:18;box-shadow:10px 10px 5px rgba(00,00,00,0.5);-webkit-box-shadow:10px 10px 5px rgba(00,00,00,0.5);-moz-box-shadow:10px 10px 5px rgba(00,00,00,0.5);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img7Inner {position:absolute;width:258px;height:97px;border: 1px outset rgba(0,0,0,1.0);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img7PopUp {display:none;overflow:hidden;z-index:999}
+#Img7PopUpInner {position:absolute;width:800px;height:323px;border:0px;overflow:hidden;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;}
+#Box3 {display:block;overflow:hidden;position:absolute;left:644px;top:47px;width:300px;height:186px;z-index:19;background:url('./images/gestion2_Box2.png');background-repeat:no-repeat;}
+#Img8 {display:block;overflow:hidden;position:absolute;left:14px;top:14px;width:232px;height:132px;z-index:20;box-shadow:10px 10px 5px rgba(00,00,00,0.5);-webkit-box-shadow:10px 10px 5px rgba(00,00,00,0.5);-moz-box-shadow:10px 10px 5px rgba(00,00,00,0.5);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img8Inner {position:absolute;width:230px;height:130px;border: 1px outset rgba(0,0,0,1.0);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img8PopUp {display:none;overflow:hidden;z-index:999}
+#Img8PopUpInner {position:absolute;width:800px;height:469px;border:0px;overflow:hidden;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;}
+#Box4 {display:block;overflow:hidden;position:absolute;left:19px;top:238px;width:300px;height:182px;z-index:21;background:url('./images/gestion2_Box1.png');background-repeat:no-repeat;}
+#Img1 {display:block;overflow:hidden;position:absolute;left:11px;top:12px;width:237px;height:133px;z-index:22;box-shadow:10px 10px 5px rgba(00,00,00,0.5);-webkit-box-shadow:10px 10px 5px rgba(00,00,00,0.5);-moz-box-shadow:10px 10px 5px rgba(00,00,00,0.5);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img1Inner {position:absolute;width:235px;height:131px;border: 1px outset rgba(0,0,0,1.0);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img1PopUp {display:none;overflow:hidden;z-index:999}
+#Img1PopUpInner {position:absolute;width:800px;height:464px;border:0px;overflow:hidden;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;}
+#Box5 {display:block;overflow:hidden;position:absolute;left:19px;top:419px;width:300px;height:182px;z-index:23;background:url('./images/gestion2_Box1.png');background-repeat:no-repeat;}
+#Img2 {display:block;overflow:hidden;position:absolute;left:11px;top:12px;width:260px;height:111px;z-index:24;box-shadow:10px 10px 5px rgba(00,00,00,0.5);-webkit-box-shadow:10px 10px 5px rgba(00,00,00,0.5);-moz-box-shadow:10px 10px 5px rgba(00,00,00,0.5);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img2Inner {position:absolute;width:258px;height:109px;border: 1px outset rgba(0,0,0,1.0);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img2PopUp {display:none;overflow:hidden;z-index:999}
+#Img2PopUpInner {position:absolute;width:800px;height:358px;border:0px;overflow:hidden;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;}
+#Box6 {display:block;overflow:hidden;position:absolute;left:330px;top:238px;width:300px;height:182px;z-index:25;background:url('./images/gestion2_Box1.png');background-repeat:no-repeat;}
+#Img3 {display:block;overflow:hidden;position:absolute;left:27px;top:13px;width:234px;height:132px;z-index:26;box-shadow:10px 10px 5px rgba(00,00,00,0.5);-webkit-box-shadow:10px 10px 5px rgba(00,00,00,0.5);-moz-box-shadow:10px 10px 5px rgba(00,00,00,0.5);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img3Inner {position:absolute;width:232px;height:130px;border: 1px outset rgba(0,0,0,1.0);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img3PopUp {display:none;overflow:hidden;z-index:999}
+#Img3PopUpInner {position:absolute;width:800px;height:466px;border:0px;overflow:hidden;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;}
+#Box7 {display:block;overflow:hidden;position:absolute;left:644px;top:238px;width:300px;height:182px;z-index:27;background:url('./images/gestion2_Box1.png');background-repeat:no-repeat;}
+#Img5 {display:block;overflow:hidden;position:absolute;left:11px;top:12px;width:232px;height:132px;z-index:28;box-shadow:10px 10px 5px rgba(00,00,00,0.5);-webkit-box-shadow:10px 10px 5px rgba(00,00,00,0.5);-moz-box-shadow:10px 10px 5px rgba(00,00,00,0.5);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img5Inner {position:absolute;width:230px;height:130px;border: 1px outset rgba(0,0,0,1.0);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img5PopUp {display:none;overflow:hidden;z-index:999}
+#Img5PopUpInner {position:absolute;width:800px;height:470px;border:0px;overflow:hidden;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;}
+#Box9 {display:block;overflow:hidden;position:absolute;left:644px;top:418px;width:300px;height:182px;z-index:29;background:url('./images/gestion2_Box1.png');background-repeat:no-repeat;}
+#Img10 {display:block;overflow:hidden;position:absolute;left:70px;top:20px;width:150px;height:132px;z-index:30;box-shadow:10px 10px 5px rgba(00,00,00,0.5);-webkit-box-shadow:10px 10px 5px rgba(00,00,00,0.5);-moz-box-shadow:10px 10px 5px rgba(00,00,00,0.5);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img10Inner {position:absolute;width:148px;height:130px;border: 1px outset rgba(0,0,0,1.0);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img10PopUp {display:none;overflow:hidden;z-index:999}
+#Img10PopUpInner {position:absolute;width:631px;height:560px;border:0px;overflow:hidden;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;}
+#Text1 {display:block;position:absolute;left:131px;top:2px;width:727px;height:50px;z-index:31;}
+#PanelFooter {display:block;overflow:hidden;position:relative;float:left;margin-left:20px;width:960px;height:110px;z-index:32;}
+#PanelFooterAlpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#PanelFooterNoAlpha {position:relative;}
+#BoxFooter1 {display:block;overflow:hidden;position:relative;float:left;width:960px;height:66px;z-index:33;background:url('./images/gestion2_BoxFooter1.png');background-repeat:no-repeat;}
+#BoxFooter2 {display:block;overflow:hidden;position:absolute;left:0px;top:0px;width:960px;height:50px;z-index:34;background:url('./images/gestion2_BoxFooter2.png');background-repeat:no-repeat;}
+#Compteur1 {display:block;overflow:hidden;position:absolute;left:19px;top:0px;width:183px;height:48px;z-index:35;}
+#Text7 {display:block;position:absolute;left:208px;top:13px;width:241px;height:34px;z-index:36;}
+#Img9 {display:block;overflow:hidden;position:absolute;left:39px;top:11px;width:157px;height:88px;z-index:37;box-shadow:10px 10px 5px rgba(00,00,00,0.5);-webkit-box-shadow:10px 10px 5px rgba(00,00,00,0.5);-moz-box-shadow:10px 10px 5px rgba(00,00,00,0.5);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img9Inner {position:absolute;width:155px;height:86px;border: 1px outset rgba(0,0,0,1.0);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img9PopUp {display:none;overflow:hidden;z-index:999}
+#Img9PopUpInner {position:absolute;width:1000px;height:586px;border:0px;overflow:hidden;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;}
